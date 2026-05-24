@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Cutlery Plate Center Highlight Grid -->
+    <!-- Group centered around the 66dp safe zone -->
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        
+        <!-- Main Plate Rim -->
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M54,54m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0" />
+            
+        <!-- Inner Plate Surface -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,54m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+            
+        <!-- Cloche Platter / Dome Highlight -->
+        <path
+            android:fillColor="#FFE082"
+            android:pathData="M54,54m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+            
+        <!-- Fork on the Left of the plate -->
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M22,38 L22,50 C22,54 26,54 26,54 L26,72 L28,72 L28,54 C28,54 32,54 32,50 L32,38 L30,38 L30,48 L28,48 L28,38 L26,38 L26,48 L24,48 L24,38 Z" />
+            
+        <!-- Spoon on the Right of the plate -->
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M81,38 C77,38 75,43 75,49 C75,55 78,57 80,57 L80,72 L83,72 L83,57 C85,57 88,55 88,49 C88,43 85,38 81,38 Z" />
+            
+        <!-- Decorative Food Steam/Aroma waves above plate -->
+        <path
+            android:strokeColor="#FFB300"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:pathData="M48,22 Q51,19 50,16" />
+        <path
+            android:strokeColor="#FFB300"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:pathData="M54,23 Q57,20 56,17" />
+        <path
+            android:strokeColor="#FFB300"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:pathData="M60,22 Q63,19 62,16" />
+            
+    </group>
+</vector>

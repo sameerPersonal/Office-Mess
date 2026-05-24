@@ -1,0 +1,6 @@
+{
+  "name": "Office Mess",
+  "description": "Interactive daily menu, meal ratings, simulated push-notification hub, and a conversational BiteBot AI chatbot for company staff members.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
